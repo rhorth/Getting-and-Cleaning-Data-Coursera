@@ -1,11 +1,9 @@
 #HAR Analysis Code
 Description: R Code (run_analysis.R) to create a tidy summarized dataset of the Human Activity Recognition (HAR) Using Smartphones Dataset
 
-File created by: R.Horth
-
-Date: 06/05/2016
-
-Last Updated: 06/05/2016
+  File created by: R.Horth <br />
+  Date: 06/05/2016 <br />
+  Last Updated: 06/05/2016
 
 ##Information on the R code <run_analysis.R>:
 

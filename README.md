@@ -5,6 +5,36 @@ File created by: R.Horth
 Date: 13/05/2016
 Last Updated: 13/05/2016
 
+##Information on the R code <run_analysis.R>:
+
+####Required libraries:
+- plyr
+- memisc
+
+####Required data files:
+This data can be obtained from (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+- 'features.txt': List of all features.
+- 'activity_labels.txt': Links the class labels with their activity name.
+- 'train/X_train.txt': Training set.
+- 'train/y_train.txt': Training labels.
+- 'test/X_test.txt': Test set.
+- 'test/y_test.txt': Test labels.
+- 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+
+####Procedures performed in code:
+- Step 1. Set working directory and load libraries
+- Step 2. Read in files
+- Step 3. Clean up train and test files and create one dataset for each
+- Step 4. Merge the cleaned test and train datasets
+- Step 5. Create a new tidy dataset with mean of numeric columns and relabeled variables 
+
+####Code output
+The code outputs a text file that contains for each record:
+- Activity label. 
+- An identifier of the subject who carried out the experiment.
+- The means of the mean and standard deviation of the different measurements (described in detail in the codebook). 
+
 ##Information about the HAR data :
 
 ####Created By: 
@@ -26,33 +56,3 @@ Use of this dataset in publications must be acknowledged by referencing the foll
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
-
-##Information on the R code <run_analysis.R>:
-
-####Required libraries:
-plyr
-memisc
-
-####Required data files:
-This data can be obtained from (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
-- 'features.txt': List of all features.
-- 'activity_labels.txt': Links the class labels with their activity name.
-- 'train/X_train.txt': Training set.
-- 'train/y_train.txt': Training labels.
-- 'test/X_test.txt': Test set.
-- 'test/y_test.txt': Test labels.
-- 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
-
-####Procedures performed in code:
-Step 1. Set working directory and load libraries
-Step 2. Read in files
-Step 3. Clean up train and test files and create one dataset for each
-Step 4. Merge the cleaned test and train datasets
-Step 5. Create a new tidy dataset with mean of numeric columns and relabeled variables 
-
-####Code output
-The code outputs a text file that contains for each record:
-- Activity label. 
-- An identifier of the subject who carried out the experiment.
-- The means of the mean and standard deviation of the different measurements (described in detail in the codebook). 

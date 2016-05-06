@@ -11,14 +11,16 @@ Description: Participant unique identification number
 
 Storage mode: integer
 
-Factor with 30 levels
+Factor with 6 levels:
 
+	- Numbers 1 to 30    
+	
 ##   activity
 Description: Type of activity performed
 
 Storage mode: integer
 
-Factor with 6 levels
+Factor with 6 levels:
 
 	- 'LAYING'                      
  	- 'SITTING'                   

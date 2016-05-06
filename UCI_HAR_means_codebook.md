@@ -1,13 +1,13 @@
 ========================================================================
 #DATA DICTIONARY 
-##Dataset: UCI_HAR_means.txt
+####Dataset: UCI_HAR_means.txt
 
 The dataset contains 180 lines of data. Each line of data corresponds to 6 types of activities (column 2) recorded per 30 participants (column 1).
 
 The dataset contains a summary of the means across the mean values and means across the standard deviations for each participant and type of activity for the measurements (columns 3-81) described below. 
 
 ##   subjectid
-Description: Participant unique identification number
+Description: Participant unique identification number (column 1)
 
 Storage mode: integer
 
@@ -16,7 +16,7 @@ Factor with 6 levels:
 	- Numbers 1 to 30    
 	
 ##   activity
-Description: Type of activity performed
+Description: Type of activity performed (column 2)
 
 Storage mode: integer
 
@@ -29,8 +29,8 @@ Factor with 6 levels:
 	- 'WALKING_DOWNSTAIRS'          
 	- 'WALKING_UPSTAIRS'            
 
-##   variables in columns 3 to 81
-Description: Type of measurement captured
+##  variables in columns 3 to 81
+Description: Type of measurement captured (columns 3-81)
 
 Storage mode: numeric
 

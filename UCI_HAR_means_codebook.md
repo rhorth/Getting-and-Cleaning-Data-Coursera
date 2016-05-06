@@ -35,12 +35,14 @@ Storage mode: numeric
 
 Numeric values with variable names containing the descriptions summarized below:
 
-	- The values present the mean values for each participant and activity for each measurement (denoted by **Mean** at initial of variable name)
- 	- The values for these variables come from the accelerometer and gyroscope 3-axial raw signals (denoted by **X**, **Y** or **Z**).
- 	- The time domain signals time (denoted by **Time**) were captured at a constant rate of 50 Hz. These signals were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
- 	- The acceleration signal was separated into body and gravity acceleration signals (denoted by **BodyAcc** and **GravityAcc**) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
- 	- The body linear acceleration and angular velocity were derived in time to obtain Jerk signals (denoted by **BodyAccJerk** and **BodyGyroJerk**). 
- 	- The magnitude of these three-dimensional signals were calculated using the Euclidean norm (denoted by **BodyAccMag**, **GravityAccMag**, **BodyAccJerkMag**, **BodyGyroMag**, **BodyGyroJerkMag**). 
- 	- A Fast Fourier Transform (FFT) was applied to some of these signals producing frequency domain signals (denoted by **Freq**). 
- 	- The mean and the standard deviations of the above listed measurements are denoted by **Mean** and **Std**.
+|Denotation|Description|
+| ------------- |-------------|
+|**Mean** at intial of variable name|The values present the mean values for each participant and activity for each measurement|
+|**X**, **Y** or **Z**|The values for these variables come from the accelerometer and gyroscope 3-axial raw signals |
+|**Time**|The time domain signals time captured at a constant rate of 50 Hz and filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise|
+|**BodyAcc** and **GravityAcc**|The acceleration signal separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz|
+|**BodyAccJerk** and **BodyGyroJerk**|The body linear acceleration and angular velocity derived in time to obtain Jerk signals|
+|**BodyAccMag**, **GravityAccMag**, **BodyAccJerkMag**, **BodyGyroMag**, **BodyGyroJerkMag**|The magnitude of the three-dimensional signals calculated using the Euclidean norm| 
+|**Freq**|A Fast Fourier Transform (FFT) was applied to some of these signals producing frequency domain signals| 
+|**Mean** and **Std** not at initial of variable name|The mean and the standard deviations of the above listed measurements|
 	

@@ -10,7 +10,7 @@
 ###############
 
 # Change the location of this folder to the folder containing the UCI HAR Dataset
-setwd("C:/Users/Roberta/Documents/UCSF/Trainings/Coursera/Getting and Cleaning Data/Week 4/Project/UCI HAR Dataset/")
+setwd("C:/UCI HAR Dataset/")
 
 # Load in libraries used
 library(plyr)

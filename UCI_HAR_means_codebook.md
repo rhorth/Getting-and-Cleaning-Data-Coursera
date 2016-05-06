@@ -26,7 +26,7 @@ The dataset contains a summary of the means across the mean values and means acr
 	- 'WALKING_UPSTAIRS'            
 
 ========================================================================
-##   Variables columns 3-81
+##   variables columns 3-81
     Storage mode: numeric (double)
     Description: Type of measurement captured
 	- The values present the mean values for each participant and activity for each measurement (denoted by 'Mean' at initial of variable name)

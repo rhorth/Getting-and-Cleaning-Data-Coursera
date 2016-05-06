@@ -40,7 +40,6 @@ Numeric values with variable names containing the descriptions summarized below:
 |**Mean** at intial of variable name|The values present the mean values for each participant and activity for each measurement|
 |**Time**|The time domain signals time captured at a constant rate of 50 Hz and filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise|
 |**Freq**|A Fast Fourier Transform (FFT) was applied to some of these signals producing frequency domain signals| 
-|**X**, **Y** or **Z**|The values for these variables come from the accelerometer and gyroscope 3-axial raw signals |
 |**BodyAcc** and **GravityAcc**|The acceleration signal separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz|
 |**BodyAccJerk** and **BodyGyroJerk**|The body linear acceleration and angular velocity derived in time to obtain Jerk signals|
 |**BodyAccMag**, **GravityAccMag**, **BodyAccJerkMag**, **BodyGyroMag**, **BodyGyroJerkMag**|The magnitude of the three-dimensional signals calculated using the Euclidean norm| 
